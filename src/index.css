@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #090909;
+}
+
+:root {
+  --font-font1: "Poppins", sans-serif;
+}
+
+::selection {
+  background-color: #fffb00; /* background of selected area */
+  color: #000000; /* color of selected text */
+}
+
+#fontnav {
+  font-family: "Roboto", sans-serif;
+  background: rgba(255, 255, 255, 0.08); /* glassy transparent */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+#reach {
+  background: linear-gradient(90deg, #6a5acd, #8a2be2, #00bfff);
+}
+
+.btn1{
+  background: linear-gradient(90deg, #6a5acd, #8a2be2, #00bfff);
+}
+.btn2{
+  background: linear-gradient(90deg, #6a5acd, #8a2be2, #00bfff);
+}
+
