@@ -48,7 +48,7 @@ const Home = () => {
   })
 
   return (
-    <div id="home" className="h-full w-full">
+    <div id="home" className="h-full w-full ">
       <div className="h-full w-full flex justify-center items-center flex-col  ">
         <div  className=" h-[70vh] w-[60vw] flex justify-center items-center flex-col   ">
           <h1 id="Herotext" className="text-white text-6xl mb-4 ">

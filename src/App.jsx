@@ -10,7 +10,7 @@ import CustomCursor from './constants/cursor/customCursor'
 
 const App = () => {
   return (
-    <div className='h-screen w-screen relative'>
+    <div className='h-screen w-full relative'>
       {/* CustomCursor */}
       <CustomCursor />
 
@@ -18,8 +18,9 @@ const App = () => {
       <NavBar />
 
       {/* Home Section */}
-        <Home />
+      <Home />
       {/* About Section */}
+      <About />
       {/* Skills Section */}
 
       {/* Projects Section */}
