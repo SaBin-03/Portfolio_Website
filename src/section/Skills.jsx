@@ -67,7 +67,7 @@ const Skills = () => {
   }, []); 
 
   return (
-    <div className="h-full w-full">
+    <div id="skills" className="h-full w-full">
       <div className="h-full w-full flex justify-center items-center">
         <div id="skillscard" className="h-[95vh] w-[75vw]">
           <div className="h-[15%] w-full flex justify-center items-center">

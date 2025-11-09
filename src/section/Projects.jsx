@@ -38,9 +38,9 @@ const Projects = () => {
   })
 
   return (
-    <div className="h-full w-ful">
+    <div id="projects" className="h-full w-ful">
       <div className="h-full w-full flex justify-center items-center ">
-        <div id="projects" className="h-[95vh] w-[75vw] bg-amber-800">
+        <div id="project" className="h-[95vh] w-[75vw] bg-amber-800">
           <div className="h-[15%] w-full  flex justify-center items-center">
             <h2 ref={mainTextRef} className="text-white text-6xl">
               Project<span className="text-blue-300">s</span>

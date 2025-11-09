@@ -19,17 +19,18 @@ const App = () => {
 
       {/* Home Section */}
       <Home />
+
       {/* About Section */}
       <About />
+
       {/* Projects Section */}
       <Projects />
       
       {/* Skills Section */}
       <Skills />
+
       {/* Contact Section */}
       <Contact />
-      {/* Footer Section */}
-
 
 
     </div>

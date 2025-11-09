@@ -30,7 +30,7 @@ const About = () => {
   })
   
   return (
-    <div className="h-full w-full ">
+    <div id="about" className="h-full w-full ">
       <div className="h-full w-full flex justify-center items-center ">
         <div
           id="card"
