@@ -47,9 +47,9 @@ const Projects = () => {
             </h2>
           </div>
           <div ref={cardsRef} className="h-[85%] w-full flex justify-center items-center gap-3 p-2">
-            {projectsData.map((elem) => {
+            {projectsData.map((elem,idx) => {
               return (
-                <div  id="cards" className="h-[90%] w-1/3  p-3 rounded-2xl">
+                <div key={idx} id="cards" className="h-[90%] w-1/3  p-3 rounded-2xl">
                   <div className="h-[50%] w-full  rounded-2xl overflow-hidden ">
                     <img
                       id="cardimg"
@@ -81,7 +81,7 @@ const Projects = () => {
                       </div>
                       <div className="w-[60px] h-full mt-10 cursor-pointer">
                         <i className="ri-github-fill text-[24px] text-white"></i>
-                        <i class="ri-arrow-right-up-fill text-white"></i>
+                        <i className="ri-arrow-right-up-fill text-white"></i>
                       </div>
                     </div>
                   </div>

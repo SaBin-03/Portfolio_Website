@@ -38,8 +38,8 @@ const NavBar = () => {
                 <h2 className="text-white text-4xl font-semibold ">Alex</h2>
             </div>
             <div ref={Links}  className="flex justify-center items-center gap-6">
-                {navLinks.map((elem)=>{
-                    return <a  className='text-white ' href={elem.id}>{elem.title}</a>
+                {navLinks.map((elem,idx)=>{
+                    return <a key={idx} className='text-white ' href={elem.id}>{elem.title}</a>
                 })}
             </div>
             <div ref={btn}>

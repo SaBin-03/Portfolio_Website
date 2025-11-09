@@ -53,8 +53,8 @@ const About = () => {
               <p className="text-white text-xl leading-8 ">When I’m not coding, you’ll probably find me exploring creative designs, learning animation techniques with GSAP, or just listening to chill beats while brainstorming new project ideas.</p>
             </div>
             <div className="mt-10">
-              <button className=" mr-4 text-white px-5 py-3 text-xl rounded-full cursor-pointer border-2 transition-all hover:bg-blue-400">LinkedIn <i class="ri-linkedin-fill"></i></button>
-              <button className=" text-white px-5 py-3 text-xl rounded-full cursor-pointer border-2 transition-all hover:bg-yellow-400">View <i class="ri-list-view"></i></button>
+              <button className=" mr-4 text-white px-5 py-3 text-xl rounded-full cursor-pointer border-2 transition-all hover:bg-blue-400">LinkedIn <i className="ri-linkedin-fill"></i></button>
+              <button className=" text-white px-5 py-3 text-xl rounded-full cursor-pointer border-2 transition-all hover:bg-yellow-400">View <i className="ri-list-view"></i></button>
             </div>
           </div>
         </div>
