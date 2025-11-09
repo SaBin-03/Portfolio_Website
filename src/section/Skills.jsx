@@ -67,21 +67,21 @@ const Skills = () => {
   }, []); 
 
   return (
-    <div id="skills" className="h-full w-full">
-      <div className="h-full w-full flex justify-center items-center">
-        <div id="skillscard" className="h-[95vh] w-[75vw]">
+    <div id="skills" className="lg:h-full w-full">
+      <div className="lg:h-full w-full flex justify-center items-center">
+        <div id="skillscard" className="lg:h-[95vh] lg:w-[75vw] w-full">
           <div className="h-[15%] w-full flex justify-center items-center">
-            <h2 ref={title} className="text-white text-6xl">
+            <h2 ref={title} className="text-white lg:text-6xl text-3xl">
               Skill<span className="text-blue-300">s</span>
             </h2>
           </div>
 
           <div
             ref={boxes}
-            className="h-[85%] w-full gap-3 p-7 flex justify-center items-center flex-wrap"
+            className="lg:h-[85%] w-full gap-3 p-7 flex justify-center items-center lg:flex-wrap flex-col"
           >
             {skillsData.map((elem, index) => (
-              <div key={index} id="skillsBox" className="h-[11vh] w-1/3 p-3">
+              <div key={index} id="skillsBox" className="h-[11vh] lg:w-1/3 w-[90vw] p-3">
                 <div className="h-[30%] w-full text-center">
                   <h3 className="text-white text-xl">{elem.name}</h3>
                 </div>

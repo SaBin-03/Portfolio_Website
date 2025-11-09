@@ -38,18 +38,18 @@ const Projects = () => {
   })
 
   return (
-    <div id="projects" className="h-full w-ful">
-      <div className="h-full w-full flex justify-center items-center ">
-        <div id="project" className="h-[95vh] w-[75vw] bg-amber-800">
-          <div className="h-[15%] w-full  flex justify-center items-center">
-            <h2 ref={mainTextRef} className="text-white text-6xl">
+    <div id="projects" className="lg:h-full w-full">
+      <div className="lg:h-full  w-full flex justify-center items-center ">
+        <div id="project" className="lg:h-[95vh]  w-[75vw]">
+          <div className="lg:h-[15%] w-full  flex justify-center items-center">
+            <h2 ref={mainTextRef} className="text-white lg:text-6xl text-3xl">
               Project<span className="text-blue-300">s</span>
             </h2>
           </div>
-          <div ref={cardsRef} className="h-[85%] w-full flex justify-center items-center gap-3 p-2">
+          <div ref={cardsRef} className="lg:h-[85%] w-full lg:flex flex-col justify-center items-center gap-3 p-2">
             {projectsData.map((elem,idx) => {
               return (
-                <div key={idx} id="cards" className="h-[90%] w-1/3  p-3 rounded-2xl">
+                <div key={idx} id="cards" className="h-[90%] lg:w-1/3  p-3 rounded-2xl">
                   <div className="h-[50%] w-full  rounded-2xl overflow-hidden ">
                     <img
                       id="cardimg"

@@ -32,10 +32,10 @@ const NavBar = () => {
     },[])
   return (
     <div>
-        <div id='fontnav' className='font1 overflow-x-hidden h-15 w-full  flex  justify-between items-center px-3 py-2 absolute'>
-            <div ref={NavbarAnimation} className="flex justify-center items-center h-full w-50 gap-2 text-white text-4xl font-semibold"  >
-                <img className='h-full w-1/4' src="public/logo.png" alt="" />
-                <h2 className="text-white text-4xl font-semibold ">Alex</h2>
+        <div id='fontnav' className='font1 lg:overflow-x-hidden flex-col h-20 lg:h-15 w-full  lg:flex  justify-between items-center lg:px-3 lg:py-2 absolute'>
+            <div ref={NavbarAnimation} className="flex justify-center items-center h-10 lg:h-full w-50 lg:gap-2 text-center text-white text-4xl font-semibold"  >
+                <img className=' hidden lg:inline h-full w-1/4' src="public/logo.png" alt="" />
+                <h2 className="text-white lg:text-4xl text-3xl font-semibold ml-48">Alex</h2>
             </div>
             <div ref={Links}  className="flex justify-center items-center gap-6">
                 {navLinks.map((elem,idx)=>{
@@ -43,7 +43,7 @@ const NavBar = () => {
                 })}
             </div>
             <div ref={btn}>
-                <button id='reach' className='text-white rounded-full px-5 py-2 font-semibold cursor-pointer'>Reach Out <i class="ri-corner-up-left-double-line"></i></button>
+                <button id='reach' className='text-white hidden md:inline-block rounded-full px-5 py-2 font-semibold cursor-pointer'>Reach Out <i class="ri-corner-up-left-double-line"></i></button>
             </div>
         </div>
     </div>

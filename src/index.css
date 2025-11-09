@@ -16,7 +16,7 @@ body {
 
 #fontnav {
   font-family: "Roboto", sans-serif;
-  background: rgba(255, 255, 255, 0.08); /* glassy transparent */
+  background: rgba(255, 255, 255, 0.08); 
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -73,6 +73,11 @@ body {
   border-radius: 20px;
 }
 #contacts{
+  background: linear-gradient(145deg, #252525, #000000);
+  box-shadow: 10px 10px 16px #1b1b1b, -8px -8px 16px #1a1a1a;
+  border-radius: 20px;
+}
+#contact{
   background: linear-gradient(145deg, #252525, #000000);
   box-shadow: 10px 10px 16px #1b1b1b, -8px -8px 16px #1a1a1a;
   border-radius: 20px;

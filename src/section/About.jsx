@@ -30,31 +30,31 @@ const About = () => {
   })
   
   return (
-    <div id="about" className="h-full w-full ">
-      <div className="h-full w-full flex justify-center items-center ">
+    <div id="about" className="lg:h-full w-full ">
+      <div className="lg:h-full w-full flex  justify-center items-center ">
         <div
           id="card"
-          className=" h-[95vh] w-[75vw] flex justify-between items-center"
+          className=" h-[95vh] w-[75vw] lg:flex flex-col justify-between items-center"
         >
-          <div ref={heroImgref} className="h-[80%] w-1/3 mx-7 rounded-2xl overflow-hidden">
+          <div ref={heroImgref} className="lg:h-[80%] lg:w-1/3 mx-7 rounded-2xl overflow-hidden">
             <img
               className="object-cover h-full w-full  "
               src="https://plus.unsplash.com/premium_photo-1669130247940-81097c67e8e2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwaW4lMjBjb2F0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
               alt=""
             />
           </div>
-          <div ref={aboutRef} className="h-[90%] w-2/3 mx-3 flex  text-center items-center flex-col">
-            <h1 className="text-white text-6xl mt-4">
+          <div ref={aboutRef} className="h-[90%] lg:w-2/3 mx-3 lg:flex text-center items-center flex-col">
+            <h1 className="text-white lg:text-6xl mt-4 text-3xl">
               About <span className="text-blue-300">Me</span>
             </h1>
-            <div className="  h-[50%] w-full  mt-10 flex justify-center items-center text-start flex-col p-4">
-              <p className="text-white text-xl leading-8 ">Hey there! I’m Alex , a passionate front-end developer who loves turning ideas into clean, interactive, and visually appealing web experiences. I enjoy experimenting with new technologies, building side projects, and constantly improving my skills in modern web development.</p>
+            <div className="  h-[50%] w-full  lg:mt-10 flex justify-center items-center text-start flex-col p-4">
+              <p className="text-white lg:text-xl text-[15px] lg:leading-8 ">Hey there! I’m Alex , a passionate front-end developer who loves turning ideas into clean, interactive, and visually appealing web experiences. I enjoy experimenting with new technologies, building side projects, and constantly improving my skills in modern web development.</p>
               <br />
-              <p className="text-white text-xl leading-8 ">When I’m not coding, you’ll probably find me exploring creative designs, learning animation techniques with GSAP, or just listening to chill beats while brainstorming new project ideas.</p>
+              <p className="text-white lg:text-xl text-[15px] lg:leading-8 ">When I’m not coding, you’ll probably find me exploring creative designs, learning animation techniques with GSAP, or just listening to chill beats while brainstorming new project ideas.</p>
             </div>
-            <div className="mt-10">
-              <button className=" mr-4 text-white px-5 py-3 text-xl rounded-full cursor-pointer border-2 transition-all hover:bg-blue-400">LinkedIn <i className="ri-linkedin-fill"></i></button>
-              <button className=" text-white px-5 py-3 text-xl rounded-full cursor-pointer border-2 transition-all hover:bg-yellow-400">View <i className="ri-list-view"></i></button>
+            <div className="lg:mt-10">
+              <button className=" mr-4 text-white lg:px-5 lg:py-3 px-2 lg:text-xl rounded-full cursor-pointer border-2 transition-all hover:bg-blue-400">LinkedIn <i className="ri-linkedin-fill"></i></button>
+              <button className=" text-white lg:px-5 lg:py-3 px-2 lg:text-xl rounded-full cursor-pointer border-2 transition-all hover:bg-yellow-400">View <i className="ri-list-view"></i></button>
             </div>
           </div>
         </div>

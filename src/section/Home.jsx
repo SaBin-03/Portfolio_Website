@@ -48,27 +48,27 @@ const Home = () => {
   })
 
   return (
-    <div id="home" className="h-full w-full ">
+    <div id="home" className="lg:h-full w-full ">
       <div className="h-full w-full flex justify-center items-center flex-col  ">
-        <div  className=" h-[70vh] w-[60vw] flex justify-center items-center flex-col   ">
-          <h1 id="Herotext" className="text-white text-6xl mb-4 ">
+        <div  className=" h-[70vh] lg:w-[60vw] w-[70vw] flex justify-center items-center flex-col">
+          <h1 id="Herotext" className="text-white lg:text-6xl text-4xl lg:mb-4  ">
             Hey! I’m Alex,{" "}
             <span className="text-blue-300">FullStack Developer</span>
           </h1>
-          <p id="para1" className="text-white/70 text-xl mb-3">
+          <p id="para1" className="text-white/70 lg:text-xl mb-3 ">
             Just a guy who loves playing with code and making websites that
             actually look good.
           </p>
-          <p id="para2" className="text-white/90 text-2xl">
+          <p id="para2" className="text-white/90 lg:text-2xl text-xl">
             Welcome to my little corner of the internet! <i class="ri-global-line"></i>
           </p>
           <div className="flex justify-center items-center gap-6 mt-6">
-            <button className="btn1 text-white px-5 py-3 text-xl rounded-full cursor-pointer font-semibold ">Download CV <i className="ri-mail-download-line"></i></button>
-            <button className="btn2 text-white px-5 py-3 text-xl rounded-full cursor-pointer font-semibold "><span className="bg-black rounded-full px-6 py-4">Explore Us <i class="ri-compass-discover-line"></i></span></button>
+            <button className="btn1 text-white lg:px-5 lg:py-3 lg:text-xl rounded-full cursor-pointer lg:font-semibold ">Download CV <i className="ri-mail-download-line"></i></button>
+            <button className="btn2 text-white lg:px-5 lg:py-3 lg:text-xl rounded-full cursor-pointer lg:font-semibold "><span className="bg-black rounded-full px-6 py-4">Explore Us <i class="ri-compass-discover-line"></i></span></button>
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center flex-col text-center absolute bottom-5 left-1/2 text-amber-50">
+      <div className="hidden lg:inline flex justify-center items-center flex-col text-center absolute bottom-5 left-1/2 text-amber-50">
         <p id="scroll" className="text-white/70">Scroll</p>
         <i id="arrow" className="ri-arrow-down-long-line"></i>
 
