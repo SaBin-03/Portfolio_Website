@@ -25,9 +25,9 @@ const App = () => {
       <Projects />
       
       {/* Skills Section */}
-
+      <Skills />
       {/* Contact Section */}
-
+      <Contact />
       {/* Footer Section */}
 
 
